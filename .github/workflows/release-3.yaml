@@ -14,8 +14,4 @@ jobs:
     runs-on: anusha-runner
     steps:
     - run: echo "first job"
-  job2:
-     runs-on: ubuntu-latest  
-     needs: job1
-     steps:
-     - run: echo "second job"
+  
