@@ -6,7 +6,7 @@ name: Maven Package
 on:
  push:
   branches:
-    - 'release-1'
+    - 'release-3'
  
 
 jobs:
